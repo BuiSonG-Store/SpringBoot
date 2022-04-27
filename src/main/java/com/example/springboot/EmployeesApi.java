@@ -10,7 +10,7 @@ import java.util.List;
 @RequestMapping(path = "api/v1/employees")
 public class EmployeesApi {
     @Autowired
-    EmployeesReposivetory employeesReposivetory;
+    EmployeesRepository employeesReposivetory;
 
     @PostMapping
     public Employees createEmployees(@RequestBody Employees employees){

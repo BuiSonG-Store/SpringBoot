@@ -8,7 +8,7 @@ import java.util.List;
 @Service
 public class EmployeesService {
     @Autowired
-    private EmployeesReposivetory employeesReposivetory;
+    private EmployeesRepository employeesReposivetory;
     public List<Employees> findAll(){
         return employeesReposivetory.findAll();
     }
